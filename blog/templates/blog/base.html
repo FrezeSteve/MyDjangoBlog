@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {%if title%}
+            Django Project - {{title}}
+        {% else %}
+            Django Project
+        {% endif %}
+    </title>
+    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.css' %}">
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <script src="{% static 'blog/js/bootstrap.js' %}"></script>
+</body>
+</html>
