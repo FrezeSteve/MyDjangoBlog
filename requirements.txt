@@ -46,7 +46,7 @@ django-tag-parser==3.1
 django-templated-mail==1.1.1
 django-threadedcomments==1.2
 django-vote==2.1.7
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 djoser==2.0.3
 docopt==0.6.2
